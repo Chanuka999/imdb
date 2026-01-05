@@ -11,27 +11,25 @@ const About = () => {
         users to explore movies effortlessly.
       </p>
       <br />
-      <p>
-        🌟 What We Offer
-        <ul>
-          <li>
-            🎞️ Browse Movies – Explore a wide range of movies from different
-            genres{" "}
-          </li>
-          <li>
-            {" "}
-            ⭐ Ratings & Reviews – View IMDb-style ratings and user feedback
-          </li>
-          <li>
-            📅 Latest Releases – Stay updated with newly released and trending
-            movies{" "}
-          </li>
-          <li>🔍 Smart Search – Find your favorite movies instantly</li>
-          <li>
-            📱Responsive Design – Enjoy a seamless experience on all devices
-          </li>
-        </ul>
-      </p>
+      <p>🌟 What We Offer</p>
+      <ul>
+        <li>
+          🎞️ Browse Movies – Explore a wide range of movies from different
+          genres{" "}
+        </li>
+        <li>
+          {" "}
+          ⭐ Ratings & Reviews – View IMDb-style ratings and user feedback
+        </li>
+        <li>
+          📅 Latest Releases – Stay updated with newly released and trending
+          movies{" "}
+        </li>
+        <li>🔍 Smart Search – Find your favorite movies instantly</li>
+        <li>
+          📱Responsive Design – Enjoy a seamless experience on all devices
+        </li>
+      </ul>
 
       <br />
       <h3> 🚀 Our Mission</h3>
