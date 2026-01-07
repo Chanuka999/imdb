@@ -1,8 +1,10 @@
 const API_KEY = process.env.API_KEY;
+import Resuts from "@/components/Resuts";
 import React from "react";
 
 const page = async ({ searchParams }) => {
-  const genre = searchParams.genre || "fetchTrending";
+  const params = await searchParams;
+  const genre = params.genre || "fetchTrending";
   const res = await fetch(
     `http://api.themoviedb.org/3${
       genre === "fetchTrending" ? `/movie/top_rated` : `/trending/all/week`
@@ -14,10 +16,13 @@ const page = async ({ searchParams }) => {
     throw new Error("Failed to fetch data");
   }
   const results = data.results;
+  console.log(results.title);
 
   return (
     <div>
-      <h1>Home</h1>
+      <h1>
+        <Resuts results={results} />
+      </h1>
     </div>
   );
 };
